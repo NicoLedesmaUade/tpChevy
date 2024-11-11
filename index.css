@@ -18,14 +18,24 @@ body{
 .border-warning{
     border: solid 3px;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 .border-white{
     border: solid white 3px;
     background-color: rgba(143, 141, 141, 0.285);
     border-radius: 20px;
 }
 
-
+.textdecoration{
+    text-decoration: none;
+    color: #FFB217;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
 .navbar-nav .nav-link.active {
     font-weight: bold;
     color: #FFB217 !important;
