@@ -18,11 +18,14 @@ body{
 .border-warning{
     border: solid 3px;
 }
+
 .border-white{
     border: solid white 3px;
     background-color: rgba(143, 141, 141, 0.285);
     border-radius: 20px;
 }
+
+
 .navbar-nav .nav-link.active {
     font-weight: bold;
     color: #FFB217 !important;
