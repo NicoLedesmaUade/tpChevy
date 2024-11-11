@@ -76,6 +76,9 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+.auto{
+    width: 900px;;
+}
 .buttondark{
     color: #FFB217;
     background-color: black;
