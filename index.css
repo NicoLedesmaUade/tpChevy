@@ -1,0 +1,295 @@
+
+body{
+    background: rgb(185,151,82);
+    background: linear-gradient(0deg, rgba(185,151,82,0.8687850140056023) 0%, rgba(61,60,60,1) 46%);
+}
+.bodyauto {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('utils/fondo2.png');
+    background-size: cover;
+    
+}
+.card{
+    background-color: transparent;
+}
+
+.border-warning{
+    border: solid 3px;
+}
+.border-white{
+    border: solid white 3px;
+    background-color: rgba(143, 141, 141, 0.285);
+    border-radius: 20px;
+}
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #FFB217 !important;
+}
+.textoamarillo{
+    color: #FFB217;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+}
+
+.numeros{
+    color: #FFB217;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+}
+.btn-danger { 
+    background-color: #dc3545; 
+    border-color: #dc3545; 
+    color: white; 
+} 
+.btn-warning { 
+    background-color: #ffc107;
+     border-color: #ffc107; 
+     color: black; 
+}
+.chevrolet{
+    color: white;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    text-align: center;
+}
+.chevy{
+    color: white;
+    font-size: 64px;
+}
+.mt13{
+    margin-top: 13%;
+}
+.buttonwar{
+    background-color: #FFB217;
+    border: solid #FFB217 2px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.buttondark{
+    color: #FFB217;
+    background-color: black;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.titulo{
+    color: white;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    text-align: center;
+}
+
+.borderbutton{
+    border-bottom: solid 2px #FFB217;
+}
+
+footer{
+    background-color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.imagen{
+    width: 50px;
+}
+ul li {
+    list-style: none;
+}
+.imagenblancoynegro{
+    margin: 0;
+    padding: 0;
+    background-image: url('utils/fondoblackgray.jpg');
+    background-size: cover;
+}
+.imagenproyec{
+    width: 525px;
+}
+.parraforamarillo{
+    color: #FFB217;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bordesimulador{
+    border: solid 2px white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 10px;
+    color: white;
+    font-family: "Russo One", sans-serif;
+}
+.bordesimulador:hover{
+    background-color: rgba(199, 198, 198, 0.63);
+}
+
+.formu{
+    background-color: #FFB217;
+    border-radius: 30px;
+    padding: 10% 10%;
+}
+input{
+    background-color: black !important;
+}
+input::placeholder{
+    color: white !important;
+}
+textarea{
+    background-color: black !important;
+}
+textarea::placeholder{
+    color: white !important;
+}
+select{
+    background-color: black !important;
+}
+select option{
+    color: white !important;
+}
+.form-control{
+    color: white !important;
+}
+.contacto{
+    color: black;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    text-align: center;
+}
+.subtitulo{
+    color: black;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+.historiatitulo{
+    color: white;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 80px;
+}
+.calendario {
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.calendario h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dias-semana,
+.dias-mes {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.dias-semana span,
+.dias-mes span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    color: #333;
+}
+
+.dias-mes .seleccionado {
+    background-color: #ff6600;
+    color: #ffffff;
+}
+
+.contenedor-formulario {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FFB217;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  
+}
+.btn-confirmar {
+    background-color: #cccccc;
+    color: black;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    border: none;
+}
+
+.btn-restablecer {
+    background-color: #cccccc;
+    color: black;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+}
+.img-fluid{
+    width: 400px;
+}
+
+@media (max-width: 768px) {
+    .contenedor-formulario .row {
+        flex-direction: column;
+    }
+    .formulario {
+        margin-right: 0;
+    }
+    .calendario {
+        margin-top: 10px;
+    }
+    .chevrolet{
+        font-size: 60px;
+    }
+    .chevy{
+        font-size: 40px ;
+        text-align: center;
+    }
+    .auto{
+        width: 500px;
+    }
+    .img-fluid{
+        width: 400px;
+        margin-left: 10%;
+    }
+}
