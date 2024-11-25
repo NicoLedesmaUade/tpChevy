@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,467;1,467&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap" rel="stylesheet">   
-    <link rel="stylesheet" href="../index.css"> <!-- Archivo CSS personalizado -->
+    <link rel="stylesheet" href="../index.css">
 </head>
 <body class="bodyauto">
      <header>
@@ -21,7 +21,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse flex-column" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav align-items-center">
                         <li class="nav-item">
                             <a class="nav-link text-white mx-5" href="../index.html">Inicio</a>
                         </li>
@@ -63,7 +63,37 @@
                         <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-white" style="background-color: #F9A825; border-radius: 50%; padding: 20px; width: 500px; height: 500px;">
                             <h1 class="mb-3 historiatitulo">HISTORIA</h1>
                             <p class="text-center">Chev, fundada en 2024, es una empresa argentina dedicada a la venta de autos Chevrolet Chev. Se estableció por ofrecer no solo autos de calidad, sino también una experiencia de conducción única. Se ha adaptado a las tendencias del mercado, integrando nuevas tecnologías y modelos, pero siempre manteniendo la esencia del Chevy clásico.</p>
-                            <a href="#" class="btn buttondark ">Leer más</a>
+                            <a href="#" class="btn buttondark" data-bs-toggle="modal"data-bs-target="#exampleModal">Leer más</a>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog ">
+                                  <div class="modal-content fondomodal">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Chev, fundada en 2024, es una empresa argentina dedicada a la venta de autos Chevrolet Chev. Se estableció por ofrecer no solo autos de calidad, sino también una experiencia de conducción única. Se ha adaptado a las tendencias del mercado, integrando nuevas tecnologías y modelos, pero siempre manteniendo la esencia del Chevy clásico.</br>
+
+                                        Desde sus inicios, Chev ha sido sinónimo de innovación y excelencia. La empresa ha adoptado las tendencias emergentes del mercado, integrando de manera efectiva las últimas tecnologías en sus modelos. Esto incluye sistemas avanzados de asistencia al conductor, opciones de motorización eléctrica e híbrida, y conectividad de última generación que asegura una experiencia de usuario inigualable. </br>
+
+                                        A pesar de estas innovaciones, Chev nunca ha perdido de vista sus raíces. Cada modelo que ofrecemos refleja la herencia y tradición del Chevy clásico, conocido y amado por generaciones de conductores. Ya sea que busques la robustez y fiabilidad de una camioneta, la elegancia de un sedán, o la versatilidad de un SUV, en Chev encontrarás el vehículo perfecto que combina tradición y modernidad.</br>
+                                        
+                                        <span class="textdecoration">Nuestra Misión:</span> En Chev, nos comprometemos a proporcionar vehículos que no solo cumplan con las expectativas de nuestros clientes, sino que las superen. Nos esforzamos por ofrecer un servicio al cliente excepcional, asegurando que cada interacción sea positiva y memorable. Nuestro objetivo es construir relaciones duraderas basadas en la confianza y la satisfacción total del cliente.</br>
+                                        
+                                        <span class="textdecoration">Nuestra Visión:</span> Ser la elección preferida para los amantes de Chevrolet en Argentina y más allá, reconocidos por nuestra dedicación a la calidad, innovación y servicio. En Chev, vemos un futuro donde cada vez más personas eligen nuestros vehículos no solo por su rendimiento y tecnología, sino por la experiencia única y gratificante de conducir un Chevrolet Chev.</br>
+                                        
+                                        <span class="textdecoration">Innovación y Tecnología:</span> Chev se enorgullece de estar a la vanguardia de la tecnología automotriz. Nuestros vehículos están equipados con características avanzadas como sistemas de infoentretenimiento de última generación, cámaras de visión trasera, asistentes de estacionamiento, y opciones de personalización que permiten a nuestros clientes tener un vehículo que se adapta perfectamente a sus necesidades y estilo de vida.</br>
+                                        
+                                        <span class="textdecoration">Compromiso con la Sostenibilidad:</span> Estamos conscientes de la importancia de la sostenibilidad y el impacto ambiental. Por ello, Chev está comprometida a ofrecer opciones más ecológicas, incluyendo vehículos eléctricos e híbridos que reducen las emisiones de carbono y promueven un futuro más verde. Nuestro enfoque en la sostenibilidad refleja nuestro compromiso con el medio ambiente y nuestra responsabilidad social.</br>
+                                        
+                                        Conclusión: Chev es más que una empresa de venta de autos; es un socio en el viaje hacia una conducción extraordinaria. A través de la combinación de calidad, innovación y un servicio excepcional, Chev se ha posicionado como líder en el mercado automotriz argentino, brindando a los conductores la oportunidad de experimentar lo mejor de Chevrolet con cada kilómetro recorrido.</br>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn buttondark" data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                         </div>
                         
                         
@@ -75,25 +105,25 @@
                     <h1 class="historiatitulo mb-4">EQUIPO</h1>
                     <div class="row">
                         <!-- Miembro 1 -->
-                        <div class="col-md-6 mb-3">
+                        <div class="col-md-5 mb-3">
                             <div class="card text-center d-flex border-white align-items-center" style="border: 2px solid #787775; background-color: transparent;">
                                 <div class="d-flex align-items-center">
                                     <img src="../utils/ayelen.png" class="rounded-circle" alt="Ayelén Hassan" style="width: 200px; height: 200px; margin-right: 15px;">
                                     <div class="card-body text-left">
                                         <h3 class="card-title text-white">Ayelén Hassan</h3>
-                                        <p class="card-text text-white">Su función en el equipo es diseñadora de la página web</p>
+                                        <p class="card-text text-white">Coordinadora de Proyectos y Relaciones con el Cliente</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- Miembro 2 -->
-                        <div class="col-md-6 mb-3">
+                        <div class="col-md-5 mb-3">
                             <div class="card text-center d-flex border-white  align-items-center" style="border: 2px solid #787775; background-color: transparent;">
                                 <div class="d-flex align-items-center">
                                     <img src="../utils/gabriel.png" class="rounded-circle" alt="Gabriel Vivo" style="width: 200px; height: 200px; margin-right: 15px;">
                                     <div class="card-body text-left">
                                         <h3 class="card-title text-white">Gabriel Vivo</h3>
-                                        <p class="card-text text-white">Su función en el equipo es el maquetador web</p>
+                                        <p class="card-text text-white">Especialista en Carrocería y Pintura</p>
                                     </div>
                                 </div>
                             </div>
@@ -101,25 +131,13 @@
                     </div>
                     <div class="row">
                         <!-- Miembro 3 -->
-                        <div class="col-md-6 mb-3">
+                        <div class="col-md-5 mb-3">
                             <div class="card text-center d-flex border-white  align-items-center" style="border: 2px solid #787775; background-color: transparent;">
                                 <div class="d-flex align-items-center">
                                     <img src="../utils/nicolas.png" class="rounded-circle" alt="Nicolás Ledesma" style="width: 200px; height: 200px; margin-right: 15px;">
                                     <div class="card-body text-left">
                                         <h3 class="card-title text-white">Nicolás Ledesma</h3>
-                                        <p class="card-text text-white">Su función en el equipo es el desarrollador de la página web</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Miembro 4 -->
-                        <div class="col-md-6 mb-3">
-                            <div class="card text-center d-flex border-white  align-items-center" style="border: 2px solid #787775;  background-color: transparent;">
-                                <div class="d-flex align-items-center">
-                                    <img src="miembro4.jpg" class="rounded-circle" alt="Miembro 4" style="width: 100px; height: 100px; margin-right: 15px;">
-                                    <div class="card-body text-left text-white">
-                                        <h5 class="card-title">Ignacio Ganci</h5>
-                                        <p class="card-text">Sin Funcion</p>
+                                        <p class="card-text text-white">Especialista en Mecánica y Motores</p>
                                     </div>
                                 </div>
                             </div>
